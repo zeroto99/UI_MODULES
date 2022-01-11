@@ -1,8 +1,10 @@
 const email = document.querySelector('.email');
 const pw = document.querySelector('.pw');
 const btn = document.querySelector('.btn');
-function btnable() {
-  console.log('btn able 함수 발동')
+
+function btnAble() {
+  console.log('btnAble 함수 발동')
+  
   if(email.value === '' && pw.value === '') {
       btn.disabled = true;
       btn.classList.add('disabled')
@@ -14,5 +16,6 @@ function btnable() {
       btn.classList.remove('disabled');
   }
 } 
-email.addEventListener('input', btnable);
-pw.addEventListener('input', btnable);
+
+email.addEventListener('input', btnAble);
+pw.addEventListener('input', btnAble);
