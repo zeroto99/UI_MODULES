@@ -1,0 +1,13 @@
+form {
+  display: flex;
+  flex-direction: column;
+}
+.btn {
+  border: none;
+  margin-top: 10px;
+  background-color: #ff9800;
+  color: white;
+}
+.btn.disabled {
+  background-color: lightgray;
+}
