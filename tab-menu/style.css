@@ -1,0 +1,41 @@
+/* reset.css */
+* {
+  box-sizing: border-box;
+  margin: 0 auto;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+/* style.css */
+nav {
+  width: 500px;
+}
+
+.tab-menu {
+  display: flex;
+  line-height: 50px;
+  text-align: center;
+}
+
+.menu-item {
+  width: 100%;
+  cursor: pointer;
+}
+
+.menu-item.on {
+  background-color: #724502;
+  border-top-right-radius: 14px;
+}
+
+.menu-item.on a {
+  color: #fff;
+  font-weight: bold;
+}
