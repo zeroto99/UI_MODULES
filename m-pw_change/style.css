@@ -1,0 +1,38 @@
+@charset "UTF-8";
+
+* {
+  box-sizing: border-box;
+  margin: 0 auto;
+}
+
+label, input {
+  margin: 0;
+}
+
+input {
+  padding: 8px;
+  width: 230px;
+}
+
+.change-pw {
+  width: 400px;
+  border: none;
+  position: relative;
+}
+
+.pw-wrap {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 20px 0;
+}
+
+.save-btn {
+  position: absolute;
+  top: -22px;
+  right: 11px;
+  background-color: transparent;
+  border: none;
+  font-weight: bold;
+  color: gray;
+}
