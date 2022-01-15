@@ -6,7 +6,7 @@
 
 ### 왜 UI인가
 
-UI를 만드는 게 제일 재밌으니까! 
+UI를 만드는 게 제일 재밌으니까!요!
 
 ### 참고 자료 
 https://brunch.co.kr/@chulhochoiucj0/8
