@@ -4,23 +4,13 @@ const newPw = document.querySelector('.new-pw');
 const checkPw = document.querySelector('.check-pw');
 
 
-// CHECK:: 연산자를 더 활용해서 if문을 간결하게 사용할 수 있을 거 같음. 더 생각해보기
 function checkValue() {
-  if(nowPw.value === '' && newPw.value === '' && checkPw.value === '') { // 셋다 비어있을 때 
-    saveBtn.disabled = true;
-    saveBtn.style.color = "gray"
-  } else if(nowPw.value === '' || (newPw.value === '' && checkPw.value === '')) { 
-    saveBtn.disabled = true;
-    saveBtn.style.color = "gray"
-  } else if(newPw.value === '' || (nowPw.value === '' && checkPw.value === '')) { 
-    saveBtn.disabled = true;
-    saveBtn.style.color = "gray"
-  } else if(checkPw.value === '' || (nowPw.value === '' && newPw.value === '')) { 
-    saveBtn.disabled = true;
-    saveBtn.style.color = "gray"
-  }else {
+  if(nowPw.value !== '' && newPw.value !== '' && checkPw.value !== '') { 
     saveBtn.disabled = false;
     saveBtn.style.color = "#00a6e5"
+  } else {
+    saveBtn.disabled = true;
+    saveBtn.style.color = "gray"
   }
 }
 
