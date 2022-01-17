@@ -1,0 +1,57 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+button {
+  cursor: pointer;
+}
+
+.modal-background {
+  background-color: rgba(0,0,0,.32);
+  width: 100vw;
+  height: 100vh;
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+
+.modal {
+  max-width: 360px;
+  border-radius: 4px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: #fff;
+  padding: 20px;
+  box-shadow: 0px 11px 15px -7px rgb(0 0 0 / 20%), 0px 24px 38px 3px rgb(0 0 0 / 14%), 0px 9px 46px 8px rgb(0 0 0 / 12%);
+}
+
+.tit {
+  font-size: 18px;
+}
+
+.sub-tit {
+  margin: 10px 0 40px 0;
+  color: gray;
+}
+
+.btns {
+  display: flex;
+  justify-content: flex-end;
+  gap: 40px;
+}
+
+.cancel-btn {
+  background-color: #fff;
+  border: none;
+  color: blue;
+}
+
+.delete-btn {
+  background-color: #fff;
+  border: none;
+  color: red;
+}
