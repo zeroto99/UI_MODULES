@@ -1,0 +1,59 @@
+button {
+  cursor: pointer;
+}
+
+.sr-only {
+  position: absolute;
+  overflow: hidden;
+  clip: rect(1px, 1px, 1px, 1px);
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+}
+
+.search-section {
+  padding: 30px;
+  display: flex;
+}
+
+.search-form {
+  position: relative;
+}
+
+.search-inp {
+  border: none;
+  background-color: #eee;
+  line-height: 20px;
+  padding: 8px 8px 8px 35px;
+  box-sizing: border-box;
+  outline: none;
+  background-image: url(icon-search.png);
+  background-repeat: no-repeat;
+  background-size: 20px;
+  background-position: 9px;
+
+}
+
+.clear-btn {
+  position: absolute;
+  right: 10px;
+  top: 8px;
+  border: none;
+  background-image: url(close.png);
+  width: 20px;
+  height: 20px;
+  background-size: 10px;
+  background-color: #a3a3a3;
+  background-position: center;
+  border-radius: 50%;
+  background-repeat: no-repeat;
+}
+
+.cancel-btn {
+  border: none;
+  background: none;
+  font-size: 14px;
+  color: #0277ff;
+}
