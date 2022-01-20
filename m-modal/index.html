@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="ko">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,18 +8,23 @@
     <title>모바일 - 모달창</title>
     <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
-    <div class="modal-background">
-      <div class="modal">
-        <p class="tit">앨범을 삭제하시겠습니까?</p>
-        <p class="sub-tit">모든 사진과 동영상이 삭제됩니다.</p>
-        <div class="btns">
-          <button class="cancel-btn">취소</button>
-          <button class="delete-btn">삭제</button>
-        </div>
+    <!-- 
+      취소 버튼을 누르면 모달창이 꺼지니까 x버튼을 또 줄 필요 없다.
+      x버튼을 넣어주면 내용이 중복된다.
+    -->
+    <div class="modal-background"></div>
+    <div class="modal">
+      <p class="tit">앨범을 삭제하시겠습니까?</p>
+      <p class="sub-tit">모든 사진과 동영상이 삭제됩니다.</p>
+      <div class="btns">
+        <button class="cancel-btn">취소</button>
+        <button class="delete-btn">삭제</button>
       </div>
     </div>
 
     <script src="script.js"></script>
 </body>
+
 </html>
