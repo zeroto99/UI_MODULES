@@ -4,13 +4,15 @@
   position: relative;
   width: 500px;
 }
-.option-color {
+
+.color-label {
   position: absolute;
-    top: 0;
-    left: 43px;
+  top: 0;
+  left: 43px;
+  display: none;
 }
 
-input[name='color'] {
+.color-inp {
   width: 30px;
   height: 30px;
   border: 1px solid;
@@ -33,7 +35,11 @@ input[name='color'] {
   background-color: brown;
 }
 
-input[name='size'] {
+.size-inp {
+  display: none;
+}
+
+.size-label {
   width: 50px;
   line-height: 40px;
   display: inline-block;
@@ -41,22 +47,10 @@ input[name='size'] {
   border: 1px solid #000;
 }
 
-.size-XS {
-
+.color-inp:checked+.color-label {
+  display: block;
 }
 
-.size-S {
-
-}
-
-.size-L {
-
-}
-
-.size-XL {
-
-}
-
-.size-XXL {
-
+.size-inp:checked+.size-label {
+  border: 2px solid blue;
 }
