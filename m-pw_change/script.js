@@ -19,6 +19,12 @@ newPw.addEventListener('input', checkValue);
 checkPw.addEventListener('input', checkValue);
 
 
+// CHECK:: 정규식 검사
+// 정규식에서 쓰이는 메서드 이용하기 
+// match : 대응되는 문자열을 찾는 String 메소드입니다. 정보를 가지고 있는 배열을 반환합니다. 대응되는 문자열을 찾지 못했다면 null을 반환합니다.
+// 검사할값.match(정규표현식) == null 
+// 검사할값.match(정규표현식) !== null 
+
 // CHECK:: 비밀번호 정규식 
 function checkRules(e){
   console.log('정규식 검사 시작')
